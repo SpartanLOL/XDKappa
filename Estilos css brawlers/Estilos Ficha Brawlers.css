@@ -18,6 +18,8 @@ body {background-image: url("..\\Imagenes\\fondo mk3.jpg");
 .mensaje{text-align: center;
     background-color: rgb(209, 140, 12);
     border: rgb(205, 219, 74) 10px solid;
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
 
 }
 
