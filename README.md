@@ -1,2 +1,2 @@
-# mejores-brawlers
-Esta pagina es para estudio sin animo de lucro
+# Mejores-brawlers
+Esta pagina es para estudio sin animo de lucro.
