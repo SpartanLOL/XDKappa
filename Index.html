@@ -18,37 +18,38 @@
     </Cabecera>
 
     <Singed>
-        <img class="img1" src="img/ikerconpelo.png">
+        <img class="img1" src="img/ikerconpelo.png"><br>
         <a href="HTML/Campeones/Singed.html" class="esp">Singed El quimico loco</a>
-        <a class="ing">Singed The crazy chemist</a>
+        <a href="HTML/Campeones/Singed.html" class="ing">Singed The crazy chemist</a>
     </Singed>
 
     <Sett class="sett">
-        <img class="img2" src="img/sett.jpg">
+        <img class="img2" src="img/sett.jpg"><br>
         <a href="HTML/Campeones/Sett.html" class="esp">Sett El jefe</a>
-        <a class="ing">Sett The boss</a>
+        <a href="HTML/Campeones/Sett.html" class="ing">Sett The boss</a>
     </Sett>
 
     <Kaisa class="kaisa">
-        <img class="img3" src="img/kaisa.jpg">
+        <img class="img3" src="img/kaisa.jpg"><br>
         <a href="HTML/Campeones/Kaisa.html" class="esp">Kai'sa La hija del vacio</a>
-        <a class="ing">Kai'sa The daughter of the void</a>
+        <a href="HTML/Campeones/Kaisa.html" class="ing">Kai'sa The daughter of the void</a>
     </Kaisa>
 
     <Kayle class="kayle">
-        <img class="img4" src="img/Kayle.jpg">
+        <img class="img4" src="img/Kayle.jpg"><br>
         <a href="HTML/Campeones/Kayle.html" class="esp">Kayle La justiciera</a>
-        <a class="ing">Kayle The Justicie</a>
+        <a href="HTML/Campeones/Kayle.html" class="ing">Kayle The Justicie</a>
     </Kayle>
 
     <Formulario>
-        <form action="">
-            <label for="">Correo</label>
-            <input type="email" placeholder="ejemplo@gmail.com"><br>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Macaco"><br>
-            <label for="">Apellido</label>
-            <input type="text" placeholder="Macaquiño"><br>
+        <form onsubmit="download(this['email'].value, this['nombre'].value, this['apellido'].value)">
+            <label>Correo</label>
+            <input type="email" placeholder="ejemplo@gmail.com" name="email"><br>
+            <label>Nombre</label>
+            <input type="text" placeholder="Macaco" name="nombre"><br>
+            <label>Apellido</label>
+            <input type="text" placeholder="Macaquiño" name="apellido"><br>
+            <a download=""></a>
             <input type="submit" value="Enviar"><br>
         </form>
     </Formulario>
@@ -76,8 +77,8 @@
             <a id="kayle" href="HTML/Lores/lorekayle.html">Kayle</a><br>
         </enlaces>
     </div>
-    <h2 class="build">Skins</h2>
-
+    <h2 class="build"><button onclick="cambiarIdioma()">Ingles/Español</button></h2>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>

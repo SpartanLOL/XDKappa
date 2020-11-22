@@ -20,7 +20,9 @@ logo {
     
 }
 
-.ing {color: rgb(184, 178, 178)
+.ing {
+    color: rgb(184, 178, 178);
+    display: none;
 
 }
 
@@ -127,4 +129,12 @@ enlaces{
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+button{
+    background-color: none;
+    all: inherit;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
 }
